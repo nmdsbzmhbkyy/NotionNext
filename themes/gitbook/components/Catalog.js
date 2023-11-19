@@ -62,6 +62,10 @@ const Catalog = ({ post }) => {
   }
 
   return <>
+    <div className='w-full'><i className='mr-1 fas fa-stream' />{locale.COMMON.TABLE_OF_CONTENTS}</div>
+    <div className='w-full py-3'>
+      <Progress />
+    </div>
     <div id='toc-wrapper' className='toc-wrapper overflow-y-auto my-2 overscroll-none scroll-hidden'>
       <nav className='h-full  text-black'>
         {toc.map((tocItem) => {
