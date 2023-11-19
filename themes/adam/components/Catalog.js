@@ -62,9 +62,9 @@ const Catalog = ({ post }) => {
   }
 
   return <>
-    <div id='toc-wrapper' 
-        style=max-height: calc(100vh - 200px), border-left: 3px solid rgba(0, 0, 0, 0.04) 
-        className='toc-wrapper overflow-y-auto my-2 overscroll-none scroll-hidden'
+    <div style={{ max-height: 'calc(100vh - 200px)', border-left: '3px solid rgba(0, 0, 0, 0.04)' }}
+      id='toc-wrapper'
+      className='toc-wrapper overflow-y-auto my-2 overscroll-none scroll-hidden'
     >
       <nav className='h-full  text-black'>
         {toc.map((tocItem) => {
