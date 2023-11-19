@@ -6,12 +6,14 @@
  */
 const Style = () => {
   return <style jsx global>{`
-    
+    #toc-wrapper{
+      max-height: calc(100vh - 200px);
+      border-left: 3px solid rgba(0, 0, 0, 0.04)
+    }
     // 底色
     .dark body{
         background-color: black;
     }
-
   `}</style>
 }
 
