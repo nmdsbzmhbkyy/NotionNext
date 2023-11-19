@@ -62,7 +62,7 @@ const Catalog = ({ post }) => {
   }
 
   return <>
-    <div id='toc-wrapper' className='toc-wrapper overflow-y-auto my-2 overscroll-none scroll-hidden' style={{max-height: calc(100vh - 200px);border-left: 3px solid rgba(0, 0, 0, 0.04);}}>
+    <div id='toc-wrapper' className='toc-wrapper overflow-y-auto my-2 overscroll-none scroll-hidden' style={{max-height: calc(100vh - 200px), border-left: 3px solid rgba(0, 0, 0, 0.04) }}>
       <nav className='h-full  text-black'>
         {toc.map((tocItem) => {
           const id = uuidToId(tocItem.id)
