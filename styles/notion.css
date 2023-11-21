@@ -657,6 +657,19 @@ svg.notion-page-icon {
   padding-inline-start: 1.4em;
   margin-top: 0;
   margin-bottom: 0;
+  position: relative;
+}
+.notion-list-disc > ul:before {
+    content: '';
+    height: calc(100% - 0px);
+    width: 8px;
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;
+    left: -17px;
+    top: 0px;
+    -webkit-transform: scaleX(.25);
+    transform: scaleX(.25);
+    display: block;
 }
 
 .notion-list-numbered {
@@ -664,6 +677,20 @@ svg.notion-page-icon {
   padding-inline-start: 1.6em;
   margin-top: 0;
   margin-bottom: 0;
+  position: relative;
+}
+
+.notion-list-numbered > ol:before {
+    content: '';
+    height: calc(100% - 0px);
+    width: 8px;
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;
+    left: -21px;
+    top: 0px;
+    -webkit-transform: scaleX(.25);
+    transform: scaleX(.25);
+    display: block;
 }
 
 .notion-list-numbered > .notion-list-numbered {
