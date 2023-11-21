@@ -1985,9 +1985,9 @@ svg + .notion-page-title-text {
 .notion-quote {
   display: block;
   border-radius: 5px;
-  border-color: var(--notion-blue);
-  border-left-color: var(--notion-blue);
-  background-color: var(--notion-blue_background_co);
+  border-color: #55e294;
+  border-left-color: #1fc368;
+  background-color: var(--notion-green_background_co);
   width: 100%;
   white-space: pre-wrap;
   word-break: break-word;
